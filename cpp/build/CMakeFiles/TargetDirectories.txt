@@ -1,0 +1,3 @@
+/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles/alphaGoLite.dir
+/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles/edit_cache.dir
+/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles/rebuild_cache.dir

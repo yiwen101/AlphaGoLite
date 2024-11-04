@@ -1,3 +1,7 @@
+# Prerequsite
+Install Cmake
+
+use """chmod +x """ to make script executable
 # AlphaGoLite
 
 script/synchronous_loop.sh: Runs the entire self-play process synchronously
