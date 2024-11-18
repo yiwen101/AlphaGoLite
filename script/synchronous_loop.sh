@@ -10,7 +10,7 @@ do
     time python3 ../python/train.py 
 
     echo "Export"
-    time  python3 ../python/exporter.py
+    time  python3 ../python/export_model.py
 done
 
 exit 0
