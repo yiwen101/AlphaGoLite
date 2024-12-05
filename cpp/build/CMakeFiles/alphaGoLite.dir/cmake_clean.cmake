@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/alphaGoLite.dir/selfplay.cpp.o"
-  "CMakeFiles/alphaGoLite.dir/selfplay.cpp.o.d"
+  "CMakeFiles/alphaGoLite.dir/game/board.cpp.o"
+  "CMakeFiles/alphaGoLite.dir/game/board.cpp.o.d"
   "alphaGoLite"
   "alphaGoLite.pdb"
 )

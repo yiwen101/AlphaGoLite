@@ -129,29 +129,29 @@ alphaGoLite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/build
 .PHONY : alphaGoLite/fast
 
-selfplay.o: selfplay.cpp.o
-.PHONY : selfplay.o
+game/board.o: game/board.cpp.o
+.PHONY : game/board.o
 
 # target to build an object file
-selfplay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/selfplay.cpp.o
-.PHONY : selfplay.cpp.o
+game/board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/game/board.cpp.o
+.PHONY : game/board.cpp.o
 
-selfplay.i: selfplay.cpp.i
-.PHONY : selfplay.i
+game/board.i: game/board.cpp.i
+.PHONY : game/board.i
 
 # target to preprocess a source file
-selfplay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/selfplay.cpp.i
-.PHONY : selfplay.cpp.i
+game/board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/game/board.cpp.i
+.PHONY : game/board.cpp.i
 
-selfplay.s: selfplay.cpp.s
-.PHONY : selfplay.s
+game/board.s: game/board.cpp.s
+.PHONY : game/board.s
 
 # target to generate assembly for a file
-selfplay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/selfplay.cpp.s
-.PHONY : selfplay.cpp.s
+game/board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alphaGoLite.dir/build.make CMakeFiles/alphaGoLite.dir/game/board.cpp.s
+.PHONY : game/board.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... alphaGoLite"
-	@echo "... selfplay.o"
-	@echo "... selfplay.i"
-	@echo "... selfplay.s"
+	@echo "... game/board.o"
+	@echo "... game/board.i"
+	@echo "... game/board.s"
 .PHONY : help
 
 

@@ -69,28 +69,28 @@ include CMakeFiles/alphaGoLite.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alphaGoLite.dir/flags.make
 
-CMakeFiles/alphaGoLite.dir/selfplay.cpp.o: CMakeFiles/alphaGoLite.dir/flags.make
-CMakeFiles/alphaGoLite.dir/selfplay.cpp.o: /Users/softmark/Desktop/AlphaGoLite/cpp/selfplay.cpp
-CMakeFiles/alphaGoLite.dir/selfplay.cpp.o: CMakeFiles/alphaGoLite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alphaGoLite.dir/selfplay.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alphaGoLite.dir/selfplay.cpp.o -MF CMakeFiles/alphaGoLite.dir/selfplay.cpp.o.d -o CMakeFiles/alphaGoLite.dir/selfplay.cpp.o -c /Users/softmark/Desktop/AlphaGoLite/cpp/selfplay.cpp
+CMakeFiles/alphaGoLite.dir/game/board.cpp.o: CMakeFiles/alphaGoLite.dir/flags.make
+CMakeFiles/alphaGoLite.dir/game/board.cpp.o: /Users/softmark/Desktop/AlphaGoLite/cpp/game/board.cpp
+CMakeFiles/alphaGoLite.dir/game/board.cpp.o: CMakeFiles/alphaGoLite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alphaGoLite.dir/game/board.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alphaGoLite.dir/game/board.cpp.o -MF CMakeFiles/alphaGoLite.dir/game/board.cpp.o.d -o CMakeFiles/alphaGoLite.dir/game/board.cpp.o -c /Users/softmark/Desktop/AlphaGoLite/cpp/game/board.cpp
 
-CMakeFiles/alphaGoLite.dir/selfplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alphaGoLite.dir/selfplay.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/softmark/Desktop/AlphaGoLite/cpp/selfplay.cpp > CMakeFiles/alphaGoLite.dir/selfplay.cpp.i
+CMakeFiles/alphaGoLite.dir/game/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alphaGoLite.dir/game/board.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/softmark/Desktop/AlphaGoLite/cpp/game/board.cpp > CMakeFiles/alphaGoLite.dir/game/board.cpp.i
 
-CMakeFiles/alphaGoLite.dir/selfplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alphaGoLite.dir/selfplay.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/softmark/Desktop/AlphaGoLite/cpp/selfplay.cpp -o CMakeFiles/alphaGoLite.dir/selfplay.cpp.s
+CMakeFiles/alphaGoLite.dir/game/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alphaGoLite.dir/game/board.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/softmark/Desktop/AlphaGoLite/cpp/game/board.cpp -o CMakeFiles/alphaGoLite.dir/game/board.cpp.s
 
 # Object files for target alphaGoLite
 alphaGoLite_OBJECTS = \
-"CMakeFiles/alphaGoLite.dir/selfplay.cpp.o"
+"CMakeFiles/alphaGoLite.dir/game/board.cpp.o"
 
 # External object files for target alphaGoLite
 alphaGoLite_EXTERNAL_OBJECTS =
 
-alphaGoLite: CMakeFiles/alphaGoLite.dir/selfplay.cpp.o
+alphaGoLite: CMakeFiles/alphaGoLite.dir/game/board.cpp.o
 alphaGoLite: CMakeFiles/alphaGoLite.dir/build.make
 alphaGoLite: CMakeFiles/alphaGoLite.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/softmark/Desktop/AlphaGoLite/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable alphaGoLite"
